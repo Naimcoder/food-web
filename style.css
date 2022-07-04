@@ -1,0 +1,308 @@
+/* all common css start */
+* {
+     margin: 0;
+     padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+     margin: 0;
+     padding: 0;
+     line-height: 0.8;
+}
+
+ul,
+lo,
+li {
+     display: inline-block;
+     list-style-type: none;
+}
+
+a,
+a:hover {
+     text-decoration: none;
+}
+
+.container {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+body {
+     font-family: 'Montserrat', sans-serif;
+}
+
+.clear {
+     clear: both;
+}
+
+/* all common css end */
+/* ==================================== */
+
+
+
+/* ==================================== */
+/* heade part css start */
+#header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+
+.logo {
+     float: left;
+     width: 170px;
+     margin-top: 40px;
+     text-transform: uppercase;
+}
+
+.main_menu {
+     float: left;
+     width: 1000px;
+     text-align: right;
+}
+
+.main_menu nav ul li a {
+     text-transform: uppercase;
+     font-size: 20px;
+     display: flex;
+     color: #828282;
+     font-weight: 600;
+     padding-left: 20px;
+     line-height: 110px;
+     cursor: pointer;
+
+}
+
+.main_menu nav ul li a:hover {
+     color: #3d96f8;
+
+}
+
+/* heade part css end */
+/* ==================================== */
+
+/* ==================================== */
+/* banner part css  start */
+#banner {
+     padding: 90px 0px;
+     background: #ffff;
+}
+
+.banner_main,
+.about_main {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.banner_left {
+     width: 60%;
+     margin-right: 20px;
+}
+
+.banner_left .banner_title,
+.about_title,
+.blog_title {
+     font-size: 50px;
+     color: #575757;
+     line-height: 78px;
+     font-weight: 700;
+     text-align: left;
+     letter-spacing: -2%;
+}
+
+.banner_left .banner_subtitle {
+     color: #FBA24F;
+}
+
+.banner_left .banner_content {
+     padding-top: 20px;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 32px;
+     color: #828282;
+     margin-bottom: 50px;
+}
+
+.btn {
+     padding: 20px 32px;
+     font-size: 16px;
+     text-transform: uppercase;
+     font-weight: 500;
+     color: #fff;
+     border-radius: 50px;
+     background-image: linear-gradient(#FBA24F, #FF1E1E);
+
+}
+
+.banner_right {
+     width: 30%;
+}
+
+/* banner part css  end */
+/* ==================================== */
+
+
+/* ==================================== */
+/* about part css  end */
+#about_part {
+     background-image: url(image/7.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+.about_left {
+     padding-top: 70px;
+     Width: 50%;
+}
+
+.about_img img {
+     width: 60%;
+}
+
+.about_content {
+     margin-top: 20px;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 32px;
+     color: #828282;
+     margin-bottom: 60px;
+
+}
+
+.about_right {
+     width: 50%;
+}
+
+/* about part css  end */
+/* ==================================== */
+
+
+/* ==================================== */
+/* about part css  start */
+#blog {
+     padding-top: 100px;
+}
+
+.blog_t {
+     text-align: center;
+     padding-bottom: 20px;
+}
+
+.blog_content {
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 32px;
+     color: #828282;
+     text-align: center;
+
+}
+
+.blog_head {
+     padding: 0px 193px;
+}
+
+.blog_main {
+     display: flex;
+}
+
+.blog_one {
+     box-shadow: 0px 4px 40px 0px #00000026;
+     padding: 30px;
+     border-radius: 30px;
+     width: 48%;
+     margin-top: 50px;
+     margin-left: 2%;
+}
+
+.blog_img img {
+     width: 100%;
+
+}
+
+.blog_text {
+     font-size: 28px;
+     font-weight: 800;
+     line-height: 40px;
+     margin: 20px 0px;
+}
+
+.blog_content_text {
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+     color: #828282;
+}
+
+/* blog part css  end */
+/* ================================== */
+
+/*==================================*/
+/* countdown  part css  end */
+#countdown {
+     padding: 100px 0px;
+}
+
+.conuntdown_part {
+     display: flex;
+     justify-content: space-evenly;
+     box-shadow: 0px 0px 40px 0px #0000001A;
+     padding: 60px 40px;
+     border-radius: 20px;
+
+}
+
+.conunt_title {
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 64px;
+}
+
+.conunt_text {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+}
+
+/* countdown part css  end */
+/* ================================== */
+
+/* ================================== */
+/* footer part css  end */
+#footer {
+     padding: 100px 0px;
+     background-color: #0B0D17;
+}
+
+.footer_text h3 {
+     font-weight: 800;
+     font-size: 30px;
+     line-height: 35px;
+     text-align: center;
+     color: #828282;
+     margin-bottom: 20px;
+}
+
+.footer_text h3 span {
+     color: #FBA24F;
+}
+
+.footer_text {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     text-align: center;
+     color: #fff;
+}
+
+/* footer part css end */
+/* ======================================== */
