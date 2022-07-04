@@ -91,7 +91,7 @@ body {
 /* ==================================== */
 /* banner part css  start */
 #banner {
-     padding: 90px 0px;
+     padding: 100px 0px;
      background: #ffff;
 }
 
@@ -103,14 +103,13 @@ body {
 }
 
 .banner_left {
-     width: 60%;
-     margin-right: 20px;
+     width: 50%;
 }
 
 .banner_left .banner_title,
 .about_title,
 .blog_title {
-     font-size: 50px;
+     font-size: 52px;
      color: #575757;
      line-height: 78px;
      font-weight: 700;
@@ -142,8 +141,12 @@ body {
 
 }
 
+.banner_right img {
+     width: 80%;
+     align-items: right;
+}
 .banner_right {
-     width: 30%;
+     width: 48%;
 }
 
 /* banner part css  end */
@@ -216,9 +219,9 @@ body {
 
 .blog_one {
      box-shadow: 0px 4px 40px 0px #00000026;
-     padding: 30px;
+     padding: 20px 20px;
      border-radius: 30px;
-     width: 48%;
+     width: 50%;
      margin-top: 50px;
      margin-left: 2%;
 }
