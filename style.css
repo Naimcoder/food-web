@@ -123,10 +123,12 @@ body {
 
 .banner_left .banner_content {
      padding-top: 20px;
+     padding: 30px 90px 0px 0px;
      font-size: 20px;
      font-weight: 500;
      line-height: 32px;
      color: #828282;
+     text-align: justify;
      margin-bottom: 50px;
 }
 
